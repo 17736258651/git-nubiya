@@ -1,0 +1,69 @@
+body {
+    font-family: "Microsoft Yahei", "å¾®è½¯é›…é»‘", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #666;
+    background: #fff;
+    position: relative;
+}
+a {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+    outline: 0 none;
+}
+
+.banner {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 12px;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+
+.nav {
+    margin-bottom: 40px;
+    font-size: 12px;
+}
+
+.banner-list {
+    float: left;
+    width: 200px;
+    line-height: 3.5;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+
+.banner-list li {
+    border-bottom: 1px solid #e7e7e7;
+}
+.banner-content {
+        padding: 40px 20px 5px;
+}
+.answer {
+    margin: 10px 0px;
+    text-indent: 22px;
+}
+.subpage{
+    text-indent: 44px 
+}
+.s-pay-con {
+    float: right;
+    overflow: hidden;
+    width: 930px;
+    line-height: 1.5;
+}
+.tab-pane div{
+	display: none;
+}
+.banner-list-active{
+    color: #e8380d;
+    cursor: pointer;
+    background: #fafafa;
+}
+.banner-list-active a{
+	color: #e8380d;
+}
+.banner-list li a{
+	padding-left: 15px;
+}

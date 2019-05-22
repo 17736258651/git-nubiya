@@ -1,0 +1,250 @@
+body {
+    font-family: "Microsoft Yahei", "微软雅黑", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #666;
+}
+
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    outline: 0 none;
+}
+.cart-con {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.bg-gouwuche {
+    background: url(../images/images3/bg-gouwuche.png) no-repeat center;
+    width: 100%;
+    height: 180px;
+}
+
+.table {
+    border: 1px solid #eef0f0;
+    border-bottom: none;
+    border-top: none;
+    width: 100%;
+    min-width: 100%
+}
+
+.tableboder {
+    border: 1px solid #eef0f0;
+    font-size: 13px;
+}
+
+.table th {
+    border-right: 1px solid #eef0f0;
+    background: #f7f9f9;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    border-top: 1px solid #e1e4e6;
+    color: #727171;
+    font-size: 12px;
+    font-weight: 300px;
+}
+
+.table-border>thead>tr th {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    vertical-align: middle;
+}
+
+.table td {
+    border-right: 1px solid #eef0f0;
+    border-bottom: 1px solid #eef0f0;
+    text-align: center;
+    padding: 10px;
+}
+
+.tfoot-increasebtn {
+    cursor: pointer;
+    position: relative;
+    color: #666;
+    margin-bottom: 5px;
+    width: 370px;
+}
+
+.checkbox {
+    position: relative;
+    display: inline-block;
+    height: 22px;
+    width: 22px;
+    padding: 0;
+    border: 1px solid #c7c7c7;
+    border-radius: 2px;
+    margin-right: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    vertical-align: middle;
+    margin: 0 0 0 -1px;
+}
+
+.tfoot-tex {
+    display: inline-block;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 330px;
+    overflow: hidden;
+}
+
+p {
+    font-size: 15.4222px;
+    line-height: 1.72222;
+}
+
+table a {
+    color: #e95f46;
+}
+
+.table-bigbtn {
+    border: 1px solid #e7e7e7;
+    overflow: hidden;
+    text-align: center;
+    height: 70px;
+    border-top: none;
+    margin: 0px auto;
+    margin-bottom: 25px;
+}
+
+.table-btn {
+    width: 300px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+.btn1 {
+    display: block;
+    padding: 10px;
+    color: #e8380d;
+    background: #fff;
+    float: left;
+    width: 100px;
+    border-radius: 20px;
+    border: 1px solid #e8380d;
+}
+
+.btn2 {
+    display: block;
+    border-radius: 15px;
+    padding: 10px;
+    color: #fff;
+    background: #e8380d;
+    float: left;
+    margin-left: 50px;
+    width: 100px;
+    border-radius: 20px;
+}
+
+.tbody-input {
+    height: 25px;
+    background: transparent;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    width: 50px;
+    text-align: center;
+    color: #899096;
+    border-top: none;
+    border-bottom: none;
+}
+
+.btn-ctns {
+    border: 1px solid #e0d7e3;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.table-jia,
+.table-jian {
+    cursor: pointer;
+    padding: 6px 8px;
+}
+
+.tbody-title {
+    font-size: 16px;
+    color: #000;
+}
+
+table a:hover {
+    color: #e95f46;
+}
+
+tbody:hover {
+    background: #ebf3e6;
+}
+
+.tfoot-increasebtn #huaguo:hover {
+    background: #ebf3e6;
+}
+.tfoot-increasebtn #huaguo1:hover {
+    background: #ebf3e6;
+}
+.table-btn a:hover{
+    color: #000;
+}
+.tfoot-huaguo{
+    position: absolute;
+    display: none;
+    top: 0;
+    right: -220px;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    height: 55px;
+    font-size: 13px;
+    border-radius: 5px;
+    background-color: #fff;
+    z-index: 5;
+}
+.tfoot-huaguo1{
+    position: absolute;
+    display: none;
+    top: 0;
+    right: -220px;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    height: 55px;
+    font-size: 13px;
+    border-radius: 5px;
+    background-color: #fff;
+    z-index: 5;
+}
+.tfoot-huaguo1 img {
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.tfoot-huaguo img {
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.cloce{
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    color: #838383;
+    text-align: center;
+    text-shadow: none;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 20px;
+    line-height: 19px;
+    cursor: pointer;
+    font-size: 18px;
+    display: inline-block;
+    margin-left: 8px;
+    opacity: 1;
+    float: none;
+}
